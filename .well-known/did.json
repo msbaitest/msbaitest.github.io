@@ -1,0 +1,19 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:msbaitest.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:msbaitest.github.io#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:msbaitest.github.io",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "alg": "RS256",
+        "x5c": [
+          "MIICuDCCAaCgAwIBAgIUErhbSMbAUOO4qrPUMKnq3mz/mWQwDQYJKoZIhvcNAQELBQAwFjEUMBIGA1UEAwwLc2VsZi1zaWduZWQwHhcNMjEwOTA4MjExMDA0WhcNMjEwOTE4MjExMDA0WjAWMRQwEgYDVQQDDAtzZWxmLXNpZ25lZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN5KVCFaILdgGiL0VaNIJ6yccZ58Zj/eWh63mH4LNfYgdhmqyPoFuM6KGxBG9CkJtr11QnF/JNqzdnFQ9XlyN8Z3MLBvWvR8RYBZoT/6ZWABE3YaktcRm4PeROCI90dT5ntA7tpDX99jwRLhp5hZSeytywc0pFTNEo4cBaY+Bv9zHovY4h7fzqQ37sjkr2tqq+ODGASDLkn2w3v+Q1sEED9f7Tw36h4Eks1NQOn+NOg9/HDDCIwCkkvzxd4dt9xEalKmpjVlghE1cr3TxhkBBixsBaExRtm+qxpGWhfEEBMXm1mEvE2VvXIwNg723UQlEwcH9Kdav8q2klfqvTT0e+8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEASoMZJTB+Dzv9BN8x3J/QKbrj/ZF7vxqaGH986WdowfLGrH14/fSRLMrtrE3zLEUvD9v1jlhlStRZ4jBYS+Fh9x3T21TwatH7s8yzCpxN0l/VH3yAEy4ykOlkVIlxKL/EZT0IpYTAnIBlbU1wuQnvp2tiGxHWkZHav+qYA9WiFyEJ29HixtiEgWjKbyI8vfe/weD5evidH2omqEkh6PkBo+6NYcemgby4IxHrZSSDMr0diNZMuTUp2Ghm5qbXDvLOWMIkZTQE1kMXa5xVNPN/sgRcyCkvzxb2fO29qEJEQ/2nKK0WoFRwKDY5MKnEfk5xo20LajVSPY7HSRlTjP9aPQ=="
+        ],
+        "kid": "119575b08368e49877c65dcacce8b1d5d3b86a52a24d3db88b9237de798ab8a5"
+      }
+    }
+  ]
+}
